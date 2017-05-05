@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+.oval{
+	border: 1px solid #2117AA;
+	background-color: #2117AA;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 150px 230px;
+	margin: 70px 120px;
+	display: inline-block;
+
+}
+.oval .oval-button{
+	height: 70px;
+	width: 250px;
+	border-radius: 40px;
+	border: 2px solid #2AB4C9;
+	display:inline-block;
+}
+
+.oval .oval-buttonline{
+	height: 2px;
+	width: 54px;
+	background-color: #FFAB00; 
+	display: inline-block;
+	margin-top:36px;
+	margin-left: 26px;
+	text-align: center;
+	transform-origin: left;
+	animation: 2s infinite alternate increase;
+}
+
+
+@keyframes increase {
+	from{
+		transform: scale(0.5 ,1);
+	}
+	to{
+		transform: scale(3.5 ,1);
+	}
+	
+
+}	
+
+
+
